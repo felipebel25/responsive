@@ -1,0 +1,37 @@
+#imagenes
+   {
+       width: 40%;
+       order: 0;
+   } 
+   .texto{
+       display: flex;
+       width: 50%;
+   }
+   .aside_texto
+   {
+    width: 100%;
+    height: 50%;
+    padding: 2rem;
+    font-size: 2rem;
+   }
+   .aside_texto2
+   {
+    width: 100%;
+    height: 50%;
+    padding: 2rem;
+    font-size: 2rem;
+   }
+  
+   .section{
+       
+       display: flex;
+       flex-wrap: wrap;
+       align-self: center;
+   }
+  
+   #texto{
+      width: 60%;
+     
+    
+   }
+ 

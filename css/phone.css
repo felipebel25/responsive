@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html
+{
+    font-size: 62.5%;
+}
+
+
+.header{
+   
+    border: 0.2rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav_nav
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    width: 55%;
+
+}
+.nav_nav li
+{
+
+    display: inline-flex;
+    left: 30rem;
+    margin: 3px;
+
+
+
+}
+.nav_nav a::before
+{
+    content: "  |";
+}
+.nav_nav a::after
+{
+    content: "|";
+}
+.nav_ul{
+    display:flex;
+    align-self: center;
+  
+    font-size: 1.4rem;
+ 
+   
+}
+.text_logo
+{
+   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+    color: orchid;
+    width: 20%;
+    font-size: 1.6rem;
+}
+.text_vacas
+{
+    color: cadetblue;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+}
+#imagenes
+{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40rem;
+    align-content: space-around;
+    width: 100%;
+    
+}
+.vaca1
+{
+   background-color: wheat;
+
+    padding: 0.6rem;
+    height: 15rem;
+}
+.vaca2
+{
+    background-color: wheat;
+    padding: 0.6rem;
+    height: 15rem;
+}
+.aside
+{
+
+    width: 100%;
+    font-size: 1.6rem;
+}
+.aside_texto
+{
+    padding: 0.4rem;
+    background-color: thistle;
+    text-align: center;
+}
+.aside_texto2
+{
+    padding: 1rem;
+    background-color: gainsboro;
+    text-align: center;
+}
+.footer_text
+{
+    border: 0.1rem solid black;
+    padding: 2rems;
+    display: flex;
+    padding: 1.4rem;
+    font-size: 1.6rem;
+} 
+
